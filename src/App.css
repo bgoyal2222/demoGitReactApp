@@ -1,0 +1,117 @@
+.App {
+ text-align: center;
+  
+}
+
+.App-logo {
+  width: 80%;
+  margin: 10px 0px 20px;
+  border-radius: 6px;
+}
+
+.vcard-fullname {
+    font-size: 26px;
+    line-height: 30px;
+    display: block;
+    overflow: hidden;
+    font-weight: 600
+}
+.profile{
+  text-align: left
+}
+.user-profile-bio {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #6a737d;
+}
+.vcard-username {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    color: #666;
+}
+.App-header {
+  background-color: #222;
+  height: 10px;
+  padding: 20px;
+  color: white;
+}
+.list{
+  border-bottom: #ccc solid 1px;
+  padding: 20px 0px;
+  text-align: left;
+}
+.list p{
+  color:#0366d6;
+  font-size: 20px;
+  margin: 0px;
+  font-weight: 600;
+}
+.list span{
+  color:#586069;
+  font-size: 12px;
+}
+.search_bar{
+  border-bottom: #ccc solid 1px;
+  padding: 20px 0px;
+}
+.btn-secondary {
+    font-size: 14px !important;
+    color: #333 !important;
+    border-color: rgba(27,31,35,0.2) !important;
+    background-color: #eff3f6 !important;
+    background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%) !important;
+}
+
+
+.badge{
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;display: inline-block;
+    padding: 2px 5px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    color: #586069;
+    background-color: rgba(27,31,35,0.08);
+    border-radius: 20px;
+}
+.btn-secondary:hover {
+
+        background-color: #e6ebf1 !important;
+    background-image: linear-gradient(-180deg, #f0f3f6 0%, #e6ebf1 90%) !important;
+    background-position: -.5em !important;
+    border-color: rgba(27,31,35,0.35) !important;
+}
+.nav-link{
+  border:none !important;
+  font-size: 14px;
+}
+.container{
+  margin: 10px 30px 10px 30px
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: #e36209 2px solid !important;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
