@@ -125,10 +125,10 @@ class Repos extends Component {
                             <Col sm="12">
                                 <Container>
                                     <Row >
-                                        <Col md="6" className="search_bar">
+                                        <Col md="5" className="search_bar">
                                             <Input type="text" name="search" id="search" value={this.state.searchValue} onChange={this.handleChange} placeholder="Search repositories..." />
                                         </Col>
-                                        <Col md="6" className="search_bar">
+                                        <Col md="7" className="search_bar">
                                             <ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggleDropdown}>
                                                 <DropdownToggle caret>
                                                     Type: <b>{this.state.filterType}</b>
