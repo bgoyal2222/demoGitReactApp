@@ -3,6 +3,7 @@ import '../../App.css';
 import { connect } from 'react-redux';
 import { fetchProfile } from "./actions";
 import { Button } from "reactstrap";
+import * as Material from 'react-icons/lib/md'
 class Profile extends Component {
     componentWillMount() {
         this.props.fetchProfile('supreetsingh247');
@@ -22,9 +23,9 @@ class Profile extends Component {
                             {profile.login}
                         </span>
                         <p className="user-profile-bio">{profile.bio}</p>
-                        <Button>Add a bio</Button>
-                        <p>{profile.company}</p>
-                        <p>{profile.location}</p>
+                        <Button className="btn-bold">Add a bio</Button>
+                        <p className='user-profile-bio2'><Material.MdPeople />{profile.company}</p>
+                        <p className='user-profile-bio2'><Material.MdLocationOn />{profile.location}</p>
                     </div>
 
                 </div>}

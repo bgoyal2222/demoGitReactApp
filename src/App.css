@@ -4,7 +4,7 @@
 }
 
 .App-logo {
-  width: 80%;
+  width: 100%;
   margin: 10px 0px 20px;
   border-radius: 6px;
 }
@@ -19,9 +19,29 @@
 .profile{
   text-align: left
 }
+.btn-bold{
+  font-weight: 600 !important;
+  margin-bottom: 10px;
+}
+.not-found{
+  margin: 50px;
+}
+.yellow-dot{
+  background: #f1e05a;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 8px;
+    margin-right: 4px;
+}
 .user-profile-bio {
-    margin-top: 12px;
-    margin-bottom: 12px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #6a737d;
+}
+.user-profile-bio2 {
+    margin: 5px 0px;
     overflow: hidden;
     font-size: 14px;
     color: #6a737d;
@@ -41,7 +61,7 @@
 }
 .list{
   border-bottom: #ccc solid 1px;
-  padding: 20px 0px;
+  padding: 15px 0px 5px 0px;
   text-align: left;
 }
 .list p{
@@ -60,13 +80,15 @@
 }
 .btn-secondary {
     font-size: 14px !important;
+    width: 100%;
     color: #333 !important;
     border-color: rgba(27,31,35,0.2) !important;
     background-color: #eff3f6 !important;
     background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%) !important;
 }
-
-
+.profile-details{
+  font-size: 14px
+}
 .badge{
     display: inline-block;
     padding: .25em .4em;
@@ -86,8 +108,7 @@
     border-radius: 20px;
 }
 .btn-secondary:hover {
-
-        background-color: #e6ebf1 !important;
+    background-color: #e6ebf1 !important;
     background-image: linear-gradient(-180deg, #f0f3f6 0%, #e6ebf1 90%) !important;
     background-position: -.5em !important;
     border-color: rgba(27,31,35,0.35) !important;
